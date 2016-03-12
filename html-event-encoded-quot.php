@@ -1,0 +1,1 @@
+<a href="#" onclick='console.log("<?=htmlspecialchars($_GET['input'], ENT_HTML401 | ENT_QUOTES)?>")'>click</a>
